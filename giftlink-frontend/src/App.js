@@ -34,6 +34,10 @@ function App() {
 					path="/app/search"
 					element={<SearchPage />}
 				/>
+				<Route
+					path="/app/product/:id"
+					element={<DetailsPage />}
+				/>
 			</Routes>
 		</>
 	);
