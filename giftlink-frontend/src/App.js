@@ -4,6 +4,7 @@ import MainPage from "./components/MainPage/MainPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import SearchPage from "./components/SearchPage/SearchPage";
 
 function App() {
 	return (
@@ -26,6 +27,10 @@ function App() {
 				<Route
 					path="/app/register"
 					element={<RegisterPage />}
+				/>
+				<Route
+					path="/app/search"
+					element={<SearchPage />}
 				/>
 			</Routes>
 		</>
